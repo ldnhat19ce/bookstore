@@ -1,0 +1,26 @@
+.form-success {
+    background-color: white;
+   
+    width: 100%;
+    text-align: center;
+}
+
+.form-success-title {
+    padding-top: 30px;
+    font-size: 20px;
+    color: green;
+}
+
+.form-infor {
+    margin-left: 40%;
+    text-align: left;
+}
+
+.form-success-price{
+    padding-bottom: 5px;
+}
+
+.form-success-Name{
+    padding-top: 10px;
+    padding-bottom: 5px;
+}

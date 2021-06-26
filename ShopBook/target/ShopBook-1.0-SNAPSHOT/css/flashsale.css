@@ -1,0 +1,243 @@
+.container {
+    padding-top: 120px;
+    padding-bottom: 120px
+}
+
+label {
+    font-size: 18px
+}
+
+input {
+    padding: 10px 15px !important;
+    border: 1px solid #CFD8DC !important;
+    border-radius: 4px !important;
+    box-sizing: border-box;
+    background-color: #fff !important;
+    color: #000 !important;
+    font-size: 16px !important;
+    letter-spacing: 1px;
+    position: relative;
+    width: 100%
+}
+
+input:focus {
+    -moz-box-shadow: none !important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+    border: 1px solid #FFA000 !important;
+    outline-width: 0
+}
+
+.daterangepicker {
+    background-color: #fff;
+    border-radius: 0 !important;
+    align-content: center !important;
+    padding: 0 !important
+}
+
+/*thead tr:nth-child(2) {
+    color: #BDBDBD !important
+}
+
+tbody tr td {
+    padding: 5px 7px !important
+}
+
+.month {
+    font-size: 16px !important;
+    padding-bottom: 10px !important;
+    padding-top: 10px !important
+}
+
+.start-date,
+.end-date {
+    border-radius: 0px !important
+}
+
+.available:hover {
+    border-radius: 0px !important
+}
+
+.off {
+    color: #EEEEEE !important
+}
+
+.off:hover {
+    background-color: #EEEEEE !important;
+    color: #fff !important
+}
+
+.drp-buttons {
+    display: none !important
+}*/
+
+.page-header{
+    background-color: rgba(250,217,97,.15);
+}
+
+.page-header .h-title{
+    width: 140px;
+    font-size: 16px;
+    
+}
+
+.header-name-wrapper .header-name{
+    padding-top: 20px;
+}
+
+.editor-title{
+    padding: 43px 0px 29px 0px;
+    font-size: 16px;
+    color: #4c4c4c;
+}
+
+.header-name{
+    font-size: 24px;
+    color: #404040;
+    font-family: Tahoma;
+}
+
+.header-title-item{
+    margin-bottom: 8px;
+    display: flex;
+    font-size: 14px;
+}
+
+.header-title-time{
+  display: flex;
+}
+
+.header-title-time .h-input{
+    margin-right: 10px;
+}
+
+.header-accept{
+    padding: 20px 0px 20px 0px;
+}
+
+.header-accept button{
+    outline: none;
+    background-image: linear-gradient(to right, #ff9800, #F7695D);
+    border-top-left-radius: 20px !important;
+    border-bottom-left-radius: 20px !important;
+    border-top-right-radius: 20px !important;
+    border-bottom-right-radius: 20px !important;
+    box-shadow: none;
+    border: none;
+    font-size: 16px;
+    width: 200px;
+    height: 40px;
+    display: inline-block;
+    color: white;
+
+    
+}
+
+tr{
+    display: table-row;
+    background-color: #eee;
+}
+th{
+    display: table-cell;
+    height: 39px;
+}
+
+.table-sale{
+    padding-top: 10px;
+    padding-bottom: 11px;
+    line-height: 18px;
+    color: #666;
+    padding-left: 8px;
+    text-align: left;
+}
+td{
+    vertical-align: middle;
+}
+
+tbody tr td{
+    border-color: #eee;
+}
+.tb-sale{
+    padding-top: 16px;
+    padding-bottom: 16px;
+    color: #333;
+}
+
+.body-name{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    color: #404040;
+    margin-bottom: 6px;
+    font-weight: 500;
+    margin-left: 10px;
+}
+
+.discount-status-component{
+    display: block;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: normal;
+    margin-left: 10px;
+}
+
+.discount-status{
+    font-size: 12px;
+    color: red;
+}
+
+.discount-time{
+    padding-left: 10px;
+    font-size: 12px;
+}
+
+.book-tab{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    
+}
+
+.book-table-main{
+    border: 1px solid #CFD8DC;
+        
+}
+
+.header-create{
+    margin: 20px 0px 0px 80px;
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.header-create a{
+    color: white;
+}
+
+.f-sale{
+    font-size: 14px;
+}
+
+.table-sale-label{
+    text-align: center;
+}
+
+.table-sale-label{
+    text-align: center;
+}
+
+@media only screen and (max-width: 980px){
+    .book-tab{
+        overflow: auto;
+    }
+    .book-table-main{
+        border: none;
+            
+    }
+}
+
+
+
